@@ -323,3 +323,34 @@ body {
     font-size: 1.1rem;
     padding: 0 1rem 1rem 1rem;
 }
+
+/* --- CSS cho Avatar trong Box Liên Hệ --- */
+.contact-avatar {
+    display: block;
+    width: 168px;
+    /* Kích thước 160px */
+    height: 168px;
+    border-radius: 50%;
+    /* Bo tròn */
+
+    /* Viền ảnh màu xám nhạt (giống viền box) */
+    border: 3px solid #e2e8f0;
+
+    /* Đổ bóng nhẹ */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+    /* Tự động căn giữa */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Khoảng cách với tiêu đề bên dưới */
+    margin-bottom: 1rem;
+    /* 16px */
+}
+
+@media (max-width: 768px) {
+    .contact-avatar {
+        width: 88px;
+        height: 88px;
+    }
+}
